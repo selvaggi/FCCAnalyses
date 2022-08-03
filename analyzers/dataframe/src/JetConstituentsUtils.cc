@@ -75,15 +75,9 @@ namespace FCCAnalyses {
       return cast_constituent(jcs, ReconstructedParticle::get_charge);
     }
 
-    /*
     rv::RVec<FCCAnalysesJetConstituentsData> get_dptdpt(const rv::RVec<FCCAnalysesJetConstituents> jcs, ROOT::VecOps::RVec<edm4hep::TrackState> tracks ) {
-    //rv::RVec<FCCAnalysesJetConstituentsData> get_dptdpt(const rv::RVec<FCCAnalysesJetConstituents> jcs) {
-      //std::cout<<"pt size:  " << cast_constituent_2(jcs, tracks, ReconstructedParticle2Track::getRP2TRK_z0_tanlambda_cov).size() <<std::endl;
-      std::cout<<"jet size:  " << cast_constituent(jcs, ReconstructedParticle::get_charge).size() << ", " <<std::endl;
-      return cast_constituent_2(jcs, tracks, ReconstructedParticle2Track::getRP2TRK_z0_tanlambda_cov);
-      //return cast_constituent_2(jcs, ReconstructedParticle2Track::getRP2TRK_z0_tanlambda_cov);
+      return cast_constituent_2(jcs, tracks, ReconstructedParticle2Track::getRP2TRK_omega_cov);
     }
-    */
 
     rv::RVec<FCCAnalysesJetConstituentsData> get_erel_log(rv::RVec<edm4hep::ReconstructedParticleData>& jets, rv::RVec<FCCAnalysesJetConstituents>& jcs) {
       rv::RVec<FCCAnalysesJetConstituentsData> out;
