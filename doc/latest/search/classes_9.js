@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['valenciabriefjet_295',['ValenciaBriefJet',['../classcontrib_1_1_valencia_brief_jet.html',1,'contrib']]],
-  ['valenciainfo_296',['ValenciaInfo',['../classcontrib_1_1_valencia_info.html',1,'contrib']]],
-  ['valenciaplugin_297',['ValenciaPlugin',['../classcontrib_1_1_valencia_plugin.html',1,'contrib']]]
+  ['preprocessparams_0',['PreprocessParams',['../struct_f_c_c_analyses_1_1_weaver_interface_1_1_preprocess_params.html',1,'FCCAnalyses::WeaverInterface']]]
 ];

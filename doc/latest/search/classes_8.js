@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['thrustfit_294',['thrustFit',['../struct_algorithms_1_1thrust_fit.html',1,'Algorithms']]]
+  ['onnxruntime_0',['ONNXRuntime',['../class_o_n_n_x_runtime.html',1,'']]]
 ];
