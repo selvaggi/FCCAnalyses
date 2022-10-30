@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>FCCAnalyses: analyzers/dataframe/FCCAnalyses/ONNXRuntime.h Source File</title>
+<title>FCCAnalyses: addons/ONNXRuntime/ONNXRuntime.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -71,15 +71,15 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_3d03528d2400acc3fc02bc2b11bada0c.html">analyzers</a></li><li class="navelem"><a class="el" href="dir_80d0d0eb77b8b32422d353741e959c30.html">dataframe</a></li><li class="navelem"><a class="el" href="dir_cb7b6eb9215e3f84f34d01fe0347dc1b.html">FCCAnalyses</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_1233bc0a3e869c10318208e4553a4fcb.html">addons</a></li><li class="navelem"><a class="el" href="dir_07c81203795ae4b092cd84065b2373bb.html">ONNXRuntime</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">ONNXRuntime.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_o_n_n_x_runtime_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef FCCAnalyses_ONNXRuntime_h</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define FCCAnalyses_ONNXRuntime_h</span></div>
+<a href="_o_n_n_x_runtime_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef ONNXRuntime_ONNXRuntime_h</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define ONNXRuntime_ONNXRuntime_h</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
@@ -127,14 +127,14 @@ $(function() {
 <div class="ttc" id="aclass_o_n_n_x_runtime_html_a2cec0f03a380c639e88650e4925074ad"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a2cec0f03a380c639e88650e4925074ad">ONNXRuntime::inputNames</a></div><div class="ttdeci">const std::vector&lt; std::string &gt; &amp; inputNames() const</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.h:27</div></div>
 <div class="ttc" id="aclass_o_n_n_x_runtime_html_a4a73a8a724bb65c98baef2e53cc05b1d"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a4a73a8a724bb65c98baef2e53cc05b1d">ONNXRuntime::input_names_</a></div><div class="ttdeci">std::vector&lt; std::string &gt; input_names_</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.h:39</div></div>
 <div class="ttc" id="aclass_o_n_n_x_runtime_html_a5c1ae7394c02525ad70804754de758ce"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a5c1ae7394c02525ad70804754de758ce">ONNXRuntime::ONNXRuntime</a></div><div class="ttdeci">ONNXRuntime(const ONNXRuntime &amp;)=delete</div></div>
-<div class="ttc" id="aclass_o_n_n_x_runtime_html_a5d01f9f503324cde9c6945da475ff8a7"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a5d01f9f503324cde9c6945da475ff8a7">ONNXRuntime::variablePos</a></div><div class="ttdeci">size_t variablePos(const std::string &amp;) const</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.cc:96</div></div>
+<div class="ttc" id="aclass_o_n_n_x_runtime_html_a5d01f9f503324cde9c6945da475ff8a7"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a5d01f9f503324cde9c6945da475ff8a7">ONNXRuntime::variablePos</a></div><div class="ttdeci">size_t variablePos(const std::string &amp;) const</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.cc:94</div></div>
 <div class="ttc" id="aclass_o_n_n_x_runtime_html_a6ba3c1c92420998ab594a025a91d4901"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a6ba3c1c92420998ab594a025a91d4901">ONNXRuntime::env_</a></div><div class="ttdeci">std::unique_ptr&lt; Ort::Env &gt; env_</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.h:35</div></div>
 <div class="ttc" id="aclass_o_n_n_x_runtime_html_a76c62bd95a41c9b824e3c9b40bdda0e5"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a76c62bd95a41c9b824e3c9b40bdda0e5">ONNXRuntime::operator=</a></div><div class="ttdeci">ONNXRuntime &amp; operator=(const ONNXRuntime &amp;)=delete</div></div>
 <div class="ttc" id="aclass_o_n_n_x_runtime_html_a78644c4bc27cf26833dd3026289fbd2c"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a78644c4bc27cf26833dd3026289fbd2c">ONNXRuntime::input_node_dims_</a></div><div class="ttdeci">std::map&lt; std::string, std::vector&lt; int64_t &gt; &gt; input_node_dims_</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.h:40</div></div>
-<div class="ttc" id="aclass_o_n_n_x_runtime_html_a8badef26ee292f7606f281df625fee30"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a8badef26ee292f7606f281df625fee30">ONNXRuntime::run</a></div><div class="ttdeci">Tensor&lt; T &gt; run(Tensor&lt; T &gt; &amp;, const Tensor&lt; long &gt; &amp;={}, unsigned long long=1ull) const</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.cc:44</div></div>
+<div class="ttc" id="aclass_o_n_n_x_runtime_html_a8badef26ee292f7606f281df625fee30"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a8badef26ee292f7606f281df625fee30">ONNXRuntime::run</a></div><div class="ttdeci">Tensor&lt; T &gt; run(Tensor&lt; T &gt; &amp;, const Tensor&lt; long &gt; &amp;={}, unsigned long long=1ull) const</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.cc:42</div></div>
 <div class="ttc" id="aclass_o_n_n_x_runtime_html_a8dc28400fb3890fcf20acead7b02770d"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a8dc28400fb3890fcf20acead7b02770d">ONNXRuntime::ONNXRuntime</a></div><div class="ttdeci">ONNXRuntime(const std::string &amp;=&quot;&quot;, const std::vector&lt; std::string &gt; &amp;={})</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.cc:8</div></div>
 <div class="ttc" id="aclass_o_n_n_x_runtime_html_a9ea4568b9e064847a8ed4d4e5a8dafc7"><div class="ttname"><a href="class_o_n_n_x_runtime.html#a9ea4568b9e064847a8ed4d4e5a8dafc7">ONNXRuntime::input_node_strings_</a></div><div class="ttdeci">std::vector&lt; std::string &gt; input_node_strings_</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.h:38</div></div>
-<div class="ttc" id="aclass_o_n_n_x_runtime_html_abd1b66a2a24ddf3c7e4e2fff40b4a054"><div class="ttname"><a href="class_o_n_n_x_runtime.html#abd1b66a2a24ddf3c7e4e2fff40b4a054">ONNXRuntime::~ONNXRuntime</a></div><div class="ttdeci">virtual ~ONNXRuntime()</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.cc:41</div></div>
+<div class="ttc" id="aclass_o_n_n_x_runtime_html_abd1b66a2a24ddf3c7e4e2fff40b4a054"><div class="ttname"><a href="class_o_n_n_x_runtime.html#abd1b66a2a24ddf3c7e4e2fff40b4a054">ONNXRuntime::~ONNXRuntime</a></div><div class="ttdeci">virtual ~ONNXRuntime()</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.cc:39</div></div>
 <div class="ttc" id="aclass_o_n_n_x_runtime_html_acd3c76d73f53d42d0adf58bc26498053"><div class="ttname"><a href="class_o_n_n_x_runtime.html#acd3c76d73f53d42d0adf58bc26498053">ONNXRuntime::Tensor</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; T &gt; &gt; Tensor</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.h:22</div></div>
 <div class="ttc" id="aclass_o_n_n_x_runtime_html_af39f5339415ad28552f5745ff8db6160"><div class="ttname"><a href="class_o_n_n_x_runtime.html#af39f5339415ad28552f5745ff8db6160">ONNXRuntime::output_node_dims_</a></div><div class="ttdeci">std::map&lt; std::string, std::vector&lt; int64_t &gt; &gt; output_node_dims_</div><div class="ttdef"><b>Definition:</b> ONNXRuntime.h:40</div></div>
 <div class="ttc" id="anamespace_ort_html"><div class="ttname"><a href="namespace_ort.html">Ort</a></div><div class="ttdef"><b>Definition:</b> ONNXRuntime.h:9</div></div>
@@ -142,7 +142,7 @@ $(function() {
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 3 2022 22:48:32 for FCCAnalyses by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Oct 30 2022 20:40:49 for FCCAnalyses by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.9.3
 </small></address>
