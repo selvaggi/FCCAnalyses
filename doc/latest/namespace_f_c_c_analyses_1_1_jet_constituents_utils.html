@@ -180,6 +180,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a4f4238db00356be2552099807999fa40"><td class="memItemLeft" align="right" valign="top">rv::RVec&lt; <a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#af6f4a246be459624068391336786218e">FCCAnalysesJetConstituentsData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#a4f4238db00356be2552099807999fa40">get_Sip2dVal_clusterV</a> (const rv::RVec&lt; fastjet::PseudoJet &gt; &amp;jets, const rv::RVec&lt; <a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#af6f4a246be459624068391336786218e">FCCAnalysesJetConstituentsData</a> &gt; &amp;D0, const rv::RVec&lt; <a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#af6f4a246be459624068391336786218e">FCCAnalysesJetConstituentsData</a> &gt; &amp;phi0, const TVector3 &amp;V, const float Bz)</td></tr>
 <tr class="separator:a4f4238db00356be2552099807999fa40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b67e24da1f6a38a4eb5617f58933f8c"><td class="memItemLeft" align="right" valign="top">rv::RVec&lt; <a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#af6f4a246be459624068391336786218e">FCCAnalysesJetConstituentsData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#a5b67e24da1f6a38a4eb5617f58933f8c">get_Sip2dSig</a> (const rv::RVec&lt; <a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#af6f4a246be459624068391336786218e">FCCAnalysesJetConstituentsData</a> &gt; &amp;Sip2dVals, const rv::RVec&lt; <a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#af6f4a246be459624068391336786218e">FCCAnalysesJetConstituentsData</a> &gt; &amp;err2_D0)</td></tr>
+<tr class="memdesc:a5b67e24da1f6a38a4eb5617f58933f8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The functions get_Sip2dSig and get_Sip2dVal can be made independent; I passed to the former the result of the latter, avoiding the recomputation.  <a href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#a5b67e24da1f6a38a4eb5617f58933f8c">More...</a><br /></td></tr>
 <tr class="separator:a5b67e24da1f6a38a4eb5617f58933f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ea370b9074d03b49061a43e5e6a754c"><td class="memItemLeft" align="right" valign="top">rv::RVec&lt; <a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#af6f4a246be459624068391336786218e">FCCAnalysesJetConstituentsData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#a5ea370b9074d03b49061a43e5e6a754c">get_Sip3dVal</a> (const rv::RVec&lt; edm4hep::ReconstructedParticleData &gt; &amp;jets, const rv::RVec&lt; <a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#aa95d914fb355452e800551590a4c268c">FCCAnalysesJetConstituents</a> &gt; &amp;jcs, const ROOT::VecOps::RVec&lt; edm4hep::TrackState &gt; &amp;tracks)</td></tr>
 <tr class="separator:a5ea370b9074d03b49061a43e5e6a754c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,6 +263,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:a05eb654ebeeb7c98a7f25d4370d5adb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">recasting helper for jet constituents methods  <a href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#a05eb654ebeeb7c98a7f25d4370d5adb0">More...</a><br /></td></tr>
 <tr class="separator:a05eb654ebeeb7c98a7f25d4370d5adb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a900cf87ec5ae9045bc32b6ecf0a8cdc7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#a900cf87ec5ae9045bc32b6ecf0a8cdc7">cast_constituent_2</a></td></tr>
+<tr class="memdesc:a900cf87ec5ae9045bc32b6ecf0a8cdc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function simply applies the 2 args functions per vector of Rec Particles to a vector of vectors of Rec Particles.  <a href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#a900cf87ec5ae9045bc32b6ecf0a8cdc7">More...</a><br /></td></tr>
 <tr class="separator:a900cf87ec5ae9045bc32b6ecf0a8cdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b50d0f69d6311eb2ed43fc63440fb60"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_f_c_c_analyses_1_1_jet_constituents_utils.html#a4b50d0f69d6311eb2ed43fc63440fb60">cast_constituent_4</a></td></tr>
 <tr class="separator:a4b50d0f69d6311eb2ed43fc63440fb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1788,6 +1790,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The functions get_Sip2dSig and get_Sip2dVal can be made independent; I passed to the former the result of the latter, avoiding the recomputation. </p>
+
 </div>
 </div>
 <a id="a45a95b6e7307cb2eee552ee13e39c49e" name="a45a95b6e7307cb2eee552ee13e39c49e"></a>
@@ -2670,16 +2674,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= [](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; jcs, <span class="keyword">const</span> <span class="keyword">auto</span>&amp; coll, <span class="keyword">auto</span>&amp;&amp; meth) {</div>
-<div class="line">      </div>
 <div class="line">      rv::RVec&lt;FCCAnalysesJetConstituentsData&gt; out;</div>
 <div class="line">      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; jc : jcs) {</div>
-<div class="line">        </div>
 <div class="line">        out.emplace_back(meth(jc, coll));</div>
 <div class="line">        </div>
 <div class="line">      }</div>
 <div class="line">      <span class="keywordflow">return</span> out;</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
+<p>This function simply applies the 2 args functions per vector of Rec Particles to a vector of vectors of Rec Particles. </p>
+
 </div>
 </div>
 <a id="a4b50d0f69d6311eb2ed43fc63440fb60" name="a4b50d0f69d6311eb2ed43fc63440fb60"></a>
@@ -2694,12 +2698,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= [](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; jcs, <span class="keyword">const</span> <span class="keyword">auto</span>&amp; coll1, <span class="keyword">const</span> <span class="keyword">auto</span>&amp; coll2, <span class="keyword">const</span> <span class="keyword">auto</span>&amp; coll3,<span class="keyword">auto</span>&amp;&amp; meth) {</div>
-<div class="line">      </div>
 <div class="line">      rv::RVec&lt;FCCAnalysesJetConstituentsData&gt; out;</div>
 <div class="line">      <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; jc : jcs) {</div>
 <div class="line">        </div>
 <div class="line">        out.emplace_back(meth(jc, coll1, coll2, coll3));</div>
-<div class="line">        </div>
 <div class="line">      }</div>
 <div class="line">      <span class="keywordflow">return</span> out;</div>
 <div class="line">    }</div>
@@ -2710,7 +2712,7 @@ Variables</h2></td></tr>
 <!-- HTML footer for doxygen 1.8.15-->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 30 2022 22:45:01 for FCCAnalyses by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 31 2022 12:40:16 for FCCAnalyses by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.9.3
 </small></address>
