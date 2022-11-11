@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668190224026,
+  "lastUpdate": 1668190226339,
   "repoUrl": "https://github.com/selvaggi/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -1732,6 +1732,50 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "committer": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "distinct": true,
+          "id": "9786d17a3eded2bd8d1f5cf755ec75d0487ce58e",
+          "message": "set reference time to MC truth hard vertex",
+          "timestamp": "2022-11-11T18:55:53+01:00",
+          "tree_id": "feb9d8b4365d2dc4e10dc5a99ec8557c78ba7aed",
+          "url": "https://github.com/selvaggi/FCCAnalyses/commit/9786d17a3eded2bd8d1f5cf755ec75d0487ce58e"
+        },
+        "date": 1668190225478,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 7.335834857105269,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 3.6698848658390313,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 4.024601139023503,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 4.778115075898457,
+            "unit": "Evt/s"
           }
         ]
       }
