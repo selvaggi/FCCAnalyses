@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668703479161,
+  "lastUpdate": 1668703480530,
   "repoUrl": "https://github.com/selvaggi/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -1828,6 +1828,50 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "committer": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "distinct": true,
+          "id": "3a13ff40c3f4a2797d0afe34f907aab2f1008ff5",
+          "message": "reduce redundancy in pfcand definitions",
+          "timestamp": "2022-11-17T17:30:24+01:00",
+          "tree_id": "764ce78c87afba845f9aa83d38d7901142842a49",
+          "url": "https://github.com/selvaggi/FCCAnalyses/commit/3a13ff40c3f4a2797d0afe34f907aab2f1008ff5"
+        },
+        "date": 1668703480130,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 3.9710208067166093,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.271380209035816,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 2.1777636416281427,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 7.21330584771139,
+            "unit": "Evt/s"
           }
         ]
       }
