@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668957141315,
+  "lastUpdate": 1668957143010,
   "repoUrl": "https://github.com/selvaggi/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -2020,6 +2020,50 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "committer": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "distinct": true,
+          "id": "0b39bb92d7c0ed662696114f92eecb3cf4cb6150",
+          "message": "take 4D vertex in all track IP functions and simply expressions",
+          "timestamp": "2022-11-20T15:42:31+01:00",
+          "tree_id": "9dbfa665ea21bd4759b907d1532f1462ec0470d6",
+          "url": "https://github.com/selvaggi/FCCAnalyses/commit/0b39bb92d7c0ed662696114f92eecb3cf4cb6150"
+        },
+        "date": 1668957142365,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 4.236705328228389,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 0.6937271375772668,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 0.803199258919507,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 0.3644232130221605,
+            "unit": "Evt/s"
           }
         ]
       }
