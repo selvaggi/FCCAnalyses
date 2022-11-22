@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669108330465,
+  "lastUpdate": 1669108332414,
   "repoUrl": "https://github.com/selvaggi/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -2500,6 +2500,50 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "committer": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "distinct": true,
+          "id": "d1c8f284154a06c7038cbe6399444f6de95f579f",
+          "message": "removed cpp stage2 impl",
+          "timestamp": "2022-11-22T09:45:37+01:00",
+          "tree_id": "2e0cb1827eb761d1945c44802b099eee6e67c9f5",
+          "url": "https://github.com/selvaggi/FCCAnalyses/commit/d1c8f284154a06c7038cbe6399444f6de95f579f"
+        },
+        "date": 1669108331785,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 3.5011838135358913,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 1.906346823519853,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 3.330650054158448,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 5.548354872613833,
+            "unit": "Evt/s"
           }
         ]
       }
