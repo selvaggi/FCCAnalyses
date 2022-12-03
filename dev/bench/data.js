@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670075523286,
+  "lastUpdate": 1670075525471,
   "repoUrl": "https://github.com/selvaggi/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -3652,6 +3652,50 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "committer": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "distinct": true,
+          "id": "c10cb028fa13d81d395364b304ce84a5de7858e3",
+          "message": "simplified isEl/Mu/Chad Bz retrieval",
+          "timestamp": "2022-12-03T14:37:52+01:00",
+          "tree_id": "53472c0583ff4aa1c7f9fc67d5e2560ebe10d936",
+          "url": "https://github.com/selvaggi/FCCAnalyses/commit/c10cb028fa13d81d395364b304ce84a5de7858e3"
+        },
+        "date": 1670075524623,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 8.089131681538191,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 6.682809724386264,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.2590577161317,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 6.733609476934235,
+            "unit": "Evt/s"
           }
         ]
       }
