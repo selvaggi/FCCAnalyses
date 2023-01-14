@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1673703346500,
+  "lastUpdate": 1673703348670,
   "repoUrl": "https://github.com/selvaggi/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -4804,6 +4804,50 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "committer": {
+            "email": "michele.selvaggi@uclouvain.be",
+            "name": "Michele Selvaggi",
+            "username": "selvaggi"
+          },
+          "distinct": true,
+          "id": "f7b7da886562dacf2ed8ca27b89a3ae518a39aba",
+          "message": "added prel weavercore model winter2023",
+          "timestamp": "2023-01-14T14:21:01+01:00",
+          "tree_id": "46840b3187a5a584aa5c8d408dbb895f4a59ba8e",
+          "url": "https://github.com/selvaggi/FCCAnalyses/commit/f7b7da886562dacf2ed8ca27b89a3ae518a39aba"
+        },
+        "date": 1673703347815,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 7.498688539748589,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 6.45497911448507,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.1450719885573255,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 6.662080107724095,
+            "unit": "Evt/s"
           }
         ]
       }
