@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lognormal_0',['logNormal',['../structlog_normal.html',1,'']]]
+  ['jetflavourhelper_0',['JetFlavourHelper',['../classjet_flavour_helper_1_1_jet_flavour_helper.html',1,'jetFlavourHelper']]]
 ];
