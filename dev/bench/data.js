@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678812825591,
+  "lastUpdate": 1678812828321,
   "repoUrl": "https://github.com/selvaggi/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -7938,6 +7938,60 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/vertex_lcfiplus/analysis_V0.py"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "34742917+kjvbrt@users.noreply.github.com",
+            "name": "Juraj Smiesko",
+            "username": "kjvbrt"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f2566f31bd484c35574acfbeee672075b3c802a",
+          "message": "Merge pull request #248 from selvaggi/master\n\nSmearing object utilities",
+          "timestamp": "2023-03-14T17:15:54+01:00",
+          "tree_id": "d71f2057255e1f441ac24883a1544f3fc50b6c51",
+          "url": "https://github.com/selvaggi/FCCAnalyses/commit/5f2566f31bd484c35574acfbeee672075b3c802a"
+        },
+        "date": 1678812827231,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: examples/FCCee/weaver/analysis_inference.py",
+            "value": 1.9034666022505948,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: case-studies/analysis_example/scripts/analysis_example.py",
+            "value": 6.893223635482645,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu/analysis_stage1.py",
+            "value": 5.567271699669452,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu/analysis_B2TauNu_truth.py",
+            "value": 4.542381123812804,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test/jet_constituents.py",
+            "value": 5.766922559775856,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/vertex_lcfiplus/analysis_V0.py",
+            "value": 3.201631202176524,
+            "unit": "Evt/s"
           }
         ]
       }
