@@ -1,22 +1,6 @@
 var searchData=
 [
-  ['sel_5faxis_0',['sel_axis',['../struct_f_c_c_analyses_1_1_reconstructed_particle_1_1sel__axis.html',1,'FCCAnalyses::ReconstructedParticle']]],
-  ['sel_5fcharge_1',['sel_charge',['../struct_f_c_c_analyses_1_1_reconstructed_particle_1_1sel__charge.html',1,'FCCAnalyses::ReconstructedParticle']]],
-  ['sel_5feta_2',['sel_eta',['../struct_f_c_c_analyses_1_1_reconstructed_particle_1_1sel__eta.html',1,'FCCAnalyses::ReconstructedParticle']]],
-  ['sel_5fgenstatus_3',['sel_genStatus',['../struct_f_c_c_analyses_1_1_m_c_particle_1_1sel__gen_status.html',1,'FCCAnalyses::MCParticle']]],
-  ['sel_5flayers_4',['sel_layers',['../struct_f_c_c_analyses_1_1_calo_ntupleizer_1_1sel__layers.html',1,'FCCAnalyses::CaloNtupleizer']]],
-  ['sel_5fp_5',['sel_p',['../struct_f_c_c_analyses_1_1_reconstructed_particle_1_1sel__p.html',1,'FCCAnalyses::ReconstructedParticle']]],
-  ['sel_5fpdgid_6',['sel_pdgID',['../struct_f_c_c_analyses_1_1_m_c_particle_1_1sel__pdg_i_d.html',1,'FCCAnalyses::MCParticle']]],
-  ['sel_5fpid_7',['sel_PID',['../struct_f_c_c_analyses_1_1my_utils_1_1sel___p_i_d.html',1,'FCCAnalyses::myUtils']]],
-  ['sel_5fpt_8',['sel_pt',['../struct_f_c_c_analyses_1_1_jet_clustering_utils_1_1sel__pt.html',1,'FCCAnalyses::JetClusteringUtils::sel_pt'],['../struct_f_c_c_analyses_1_1_m_c_particle_1_1sel__pt.html',1,'FCCAnalyses::MCParticle::sel_pt'],['../struct_f_c_c_analyses_1_1_reconstructed_particle_1_1sel__pt.html',1,'FCCAnalyses::ReconstructedParticle::sel_pt']]],
-  ['sel_5fpv_9',['sel_PV',['../struct_f_c_c_analyses_1_1my_utils_1_1sel___p_v.html',1,'FCCAnalyses::myUtils']]],
-  ['sel_5ftag_10',['sel_tag',['../struct_f_c_c_analyses_1_1_jet_tagging_utils_1_1sel__tag.html',1,'FCCAnalyses::JetTaggingUtils::sel_tag'],['../struct_f_c_c_analyses_1_1_reconstructed_particle_1_1sel__tag.html',1,'FCCAnalyses::ReconstructedParticle::sel_tag']]],
-  ['selrp_5fpdg_11',['selRP_PDG',['../struct_f_c_c_analyses_1_1_reconstructed_particle2_m_c_1_1sel_r_p___p_d_g.html',1,'FCCAnalyses::ReconstructedParticle2MC']]],
-  ['selrp_5fpdg_5findex_12',['selRP_PDG_index',['../struct_f_c_c_analyses_1_1_reconstructed_particle2_m_c_1_1sel_r_p___p_d_g__index.html',1,'FCCAnalyses::ReconstructedParticle2MC']]],
-  ['seltracks_13',['selTracks',['../struct_f_c_c_analyses_1_1_vertexing_utils_1_1sel_tracks.html',1,'FCCAnalyses::VertexingUtils']]],
-  ['smearedreconstructedparticle_14',['SmearedReconstructedParticle',['../struct_f_c_c_analyses_1_1_smear_objects_1_1_smeared_reconstructed_particle.html',1,'FCCAnalyses::SmearObjects']]],
-  ['smearedtracks_15',['SmearedTracks',['../struct_f_c_c_analyses_1_1_smear_objects_1_1_smeared_tracks.html',1,'FCCAnalyses::SmearObjects']]],
-  ['smearedtracksdndx_16',['SmearedTracksdNdx',['../struct_f_c_c_analyses_1_1_smear_objects_1_1_smeared_tracksd_ndx.html',1,'FCCAnalyses::SmearObjects']]],
-  ['smearedtrackstof_17',['SmearedTracksTOF',['../struct_f_c_c_analyses_1_1_smear_objects_1_1_smeared_tracks_t_o_f.html',1,'FCCAnalyses::SmearObjects']]],
-  ['sphericityfit_18',['sphericityFit',['../struct_f_c_c_analyses_1_1_algorithms_1_1sphericity_fit.html',1,'FCCAnalyses::Algorithms']]]
+  ['recoilbuilder_0',['recoilBuilder',['../structFCCAnalyses_01_1_1PodioSource_01_1_1ReconstructedParticle_1_1recoilBuilder.html',1,'FCCAnalyses ::PodioSource ::ReconstructedParticle::recoilBuilder'],['../structFCCAnalyses_01_1_1ReconstructedParticle_1_1recoilBuilder.html',1,'FCCAnalyses ::ReconstructedParticle::recoilBuilder'],['../structFCCAnalyses_1_1JetClusteringUtils_1_1recoilBuilder.html',1,'FCCAnalyses::JetClusteringUtils::recoilBuilder']]],
+  ['recoparticlepair_1',['RecoParticlePair',['../structAnalysisFCChh_1_1RecoParticlePair.html',1,'AnalysisFCChh']]],
+  ['resonancebuilder_2',['resonanceBuilder',['../structFCCAnalyses_01_1_1PodioSource_01_1_1ReconstructedParticle_1_1resonanceBuilder.html',1,'FCCAnalyses ::PodioSource ::ReconstructedParticle::resonanceBuilder'],['../structFCCAnalyses_01_1_1ReconstructedParticle_1_1resonanceBuilder.html',1,'FCCAnalyses ::ReconstructedParticle::resonanceBuilder'],['../structFCCAnalyses_1_1JetClusteringUtils_1_1resonanceBuilder.html',1,'FCCAnalyses::JetClusteringUtils::resonanceBuilder']]]
 ];
